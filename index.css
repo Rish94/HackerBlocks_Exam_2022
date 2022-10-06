@@ -61,8 +61,9 @@ a:hover{
 #photoblog{
     padding: 10px;
     color: blue;
-    margin: 15px;
+    margin-left: 20px;
     font-size: medium;
+    font-weight: bold;
 }
 
 #sub{
@@ -78,8 +79,10 @@ a:hover{
 }
 
 #imga:hover{
-    background-image: url("images");
-    opacity: 0.5;
+    content: url("./images/logo.png");
+    content-visibility: 0.5;
+    background-image: url("./images/logo.png");
+    opacity: 5;
 }
 
 
