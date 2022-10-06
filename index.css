@@ -78,7 +78,7 @@ a:hover{
 }
 
 #imga:hover{
-    
+    background-image: url("images");
     opacity: 0.5;
 }
 
