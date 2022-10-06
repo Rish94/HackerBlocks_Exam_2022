@@ -79,10 +79,7 @@ a:hover{
 }
 
 #imga:hover{
-    content: url("./images/logo.png");
-    content-visibility: 0.5;
-    background-image: url("./images/logo.png");
-    opacity: 5;
+    opacity: .5;
 }
 
 
