@@ -78,7 +78,7 @@ a:hover{
 
 #imga{
     width: 300px;
-    height: 150px;
+    height: 180px;
     border-radius: 10px;
 }
 
@@ -88,7 +88,7 @@ a:hover{
 
 
 #imgrow1{
-    height: 150px;
+    height: 200px;
     width: 100vw;
     display: flex;
     flex-direction: row;
