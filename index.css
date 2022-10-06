@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+}
+
+#wholewebpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+#navbar{
+    height: 55px;
+    background-color: rgb(36, 13, 13);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#logosection{
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#logo{
+    height: 30px;
+    width: 30px;
+}
+
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:10px ;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover{
+    color: cyan;
+}
+
+#button1{
+    border: 1px solid aqua;
+    background-color: rgb(36, 13, 13);
+    color: #29d9d5;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#content{
+    background-color: rgb(248, 236, 221);
+    border-radius: 10px;
+    width: 100vw;
+}
+
+#photoblog{
+    padding: 10px;
+    color: blue;
+    margin: 5px;
+    font-size: medium;
+}
+
+#sub{
+    color: black;
+    font-weight: normal;
+    font-size: small;
+}
+
+#imga{
+    width: 300px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+
+#imgrow1{
+    height: 150px;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+
+#journey{
+    height: 200;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/a4/96/c2/a496c2b6bc5d7cfe0e0674f6598c38ad.jpg");
+    padding: 10px;
+}
+
+#button2{
+    border: 1px solid aqua;
+    background-color: none;
+    color: brown;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#button2:hover{
+    background-color: #29d9d5;
+}
+
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#photography{
+    margin: 5px;
+    padding: 5px;
+}
+
+#logo:hover{
+    border: cyan;
+    border: 1px solid gray;
+}
